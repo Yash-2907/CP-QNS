@@ -1,0 +1,28 @@
+/*Write a user defined function to convert all the upper case letters to lowercase and
+lower case letters to upper case in a given string. Write appropriate main ( ) to
+demonstrate the use of the function above defined.*/
+#include<stdio.h>
+int utl(char c)
+{
+ c=c+32;
+ printf("CONVERTED CASE :- %c",c);
+}
+int ltu(char c)
+{
+ c=c-32;
+ printf("CONVERTED CASE :- %c",c);
+}
+int main()
+{
+  char c;
+  printf("pls enter the letter you want to convert :- ");
+  scanf("%c",&c);
+  if((c>=65)&&(c<=90))
+  {
+    utl(c);
+  }
+  else{
+    ltu(c);
+  }
+  return 0;
+}
