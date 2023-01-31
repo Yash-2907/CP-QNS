@@ -1,0 +1,23 @@
+//Write a program to display Name, Roll No., Gender, Address and Percentage of Previous Examination
+#include<stdio.h>
+int main()
+{
+ char n[100],add[100],gen[100];
+ int rn,per;
+ printf("PLS ENTER YOUR ROLL NUMBER :- ");
+ scanf("%d",&rn);
+ printf("PLS ENTER YOUR PERCENTAGE:- ");
+ scanf("%d",&per);
+ printf("PLS ENTER YOUR NAME:- ");
+ scanf("%s",n);
+ printf("PLS ENTER YOUR ADDRESS:- ");
+ scanf("%s",add);
+ printf("PLS ENTER YOUR GENDER:- ");
+ scanf("%s",gen);
+ printf("YOUR ROLL NUMBER :- %d\n",rn);
+ printf("YOUR PERCENTAGE:- %d\n",per);
+ printf("YOUR NAME:- %s\n",n);
+ printf("YOUR ADDRESS:- %s\n",add);
+ printf("YOUR GENDER:- %s\n",gen);
+ return 0;
+}
