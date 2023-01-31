@@ -1,0 +1,12 @@
+//Write a program to print Data Types in C
+#include<stdio.h>
+int main()
+{
+  printf(" DATA TYPES IN C ARE AS FOLLOWS :- \n");
+  printf("Primary Data Type :-	Integer, Floating-point, double, string.\n");
+  printf("Derived Data Type :-	Union, structure, array, etc.\n");
+  printf("Enumerated Data   :- Type	Enums\n");
+  printf("Void Data Type	  :- Empty Value\n");
+  printf("Bool Type	     :- True or False\n");
+  return 0;
+}
