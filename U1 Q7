@@ -1,0 +1,11 @@
+//Write a program to calculate Area of Sphere
+#include<stdio.h>
+int main()
+{
+  float r,area;
+  printf("pls enter the radius of the sphere :- ");
+  scanf("%f",&r);
+  area=(4)*(3.14)*r*r;
+  printf("area of sphere is :- %f",area);
+  return 0;
+}
