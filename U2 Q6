@@ -1,0 +1,28 @@
+//strong number program
+#include<stdio.h>
+int main()
+{
+  int fact=1,n,i,j,temp,rem,sum=0;
+  printf("pls enter the number you want to check :- ");
+  scanf("%d",&n);
+  temp=n;
+  while(n>0)
+  {
+    rem=n%10;
+    for(i=1;i<=rem;i++)
+    {
+      fact=fact*i;
+    }
+    sum=sum+fact;
+    n=n/10;
+    fact=1;
+  }
+  if(sum==temp)
+  {
+    printf("entered number is a strong number");
+  }
+  else{
+    printf("entered number is not a strong number");
+  }
+  return 0;
+}
