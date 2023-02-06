@@ -1,0 +1,11 @@
+//bitwise operations
+#include<stdio.h>
+int main()
+{
+  int x,y;
+  printf("pls enter two numbers :- ");
+  scanf("%d%d",&x,&y);
+  x+=y * 4 - 7;
+  printf("Bitwise AND of number =%d\n",x);
+  return 0;
+}
