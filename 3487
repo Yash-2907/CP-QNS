@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int maxSum(vector<int>& nums) {
+        int count=0,maxi=INT_MIN;
+        unordered_map<int,int> um;
+        for(auto& it: nums)
+        {
+            if(it>0 && !um.count(it)){
+                count+=it;
+                um[it]++;
+            }
+            else maxi=max(maxi,it);
+        }
+        return count==0 ? maxi : count;
+    }
+};
